@@ -10,7 +10,7 @@ def pregunta_01():
     Complete el código presentado a continuación.
     """
     # Lea el archivo de datos
-    df = pd.read_csv(r"E:\TEMP_ MASTER\lab---knn-clasificacion-alosanchezvi-main\house-votes-84.csv", sep=",")
+    df = pd.read_csv("house-votes-84.csv", sep=",")
 
     # Cree un vector con la variable de respuesta ('party')
     y = df['party'].values
